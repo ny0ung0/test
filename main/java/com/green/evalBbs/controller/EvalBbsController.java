@@ -38,4 +38,17 @@ public class EvalBbsController {
 		
 	}
 	
+	@RequestMapping("/writeForm")
+	public String wirteForm() {
+		
+		return "writeForm";
+	}
+	
+	@RequestMapping("/write")
+	public String write(String title, String content, String writer) {
+		dao.write(title, content, writer);
+		
+		return "redirect:list";
+	}
+	
 }
