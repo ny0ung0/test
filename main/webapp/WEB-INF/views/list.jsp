@@ -10,7 +10,7 @@
 <body>
 <h2>List Page</h2>
 <hr>
-
+<a href="writeForm">글 작성하기</a>
 <table>
     <thead>
 <tr>
