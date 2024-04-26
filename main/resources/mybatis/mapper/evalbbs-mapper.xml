@@ -12,7 +12,7 @@
 		INSERT INTO evalbbs (title, content, writer) VALUES (#{param1}, #{param2}, #{param3})
 	</insert>
 	
-	<delete id="delete" parameterType="com.green.evalBbs.dto.EvalBbsDto">
+	<delete id="delete">
 		DELETE FROM evalbbs WHERE bno = #{bno}
 	</delete>
 	
